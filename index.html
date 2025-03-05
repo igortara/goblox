@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Roblox Forum 2014</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header">
+        <img src="./img/goblox.png" alt="Roblox Logo" class="logo">
+    </div>
+
+    <div class="container">
+        <div class="forum-categories">
+            <h2>Forum Categories</h2>
+            <div class="category">
+                <h3>🎮 Goblox</h3>
+                <p>Goblox Discussion</p>
+            </div>
+            <div class="category">
+                <h3>💡 Helping</h3>
+                <p>Ask questions and get answers</p>
+            </div>
+            <div class="category">
+                <h3>🛠️ game creation</h3>
+                <p>Game Development Discussion</p>
+            </div>
+        </div>
+
+        <div class="post-form">
+            <h3>Create a new message</h3>
+            <input type="text" id="nickname" placeholder="you Nickname" maxlength="20">
+            <textarea id="message" placeholder="Your message" maxlength="500"></textarea>
+            <button onclick="addPost()">Send</button>
+        </div>
+
+        <div class="posts" id="posts">
+            <!-- Сообщения будут добавляться здесь -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
